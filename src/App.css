@@ -1,0 +1,35 @@
+
+.App {
+  text-align: center;
+  background-color: rgb(223, 169, 218);
+ text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  color: blue;
+
+}
+.movies {
+  width: 300px;
+  height: 180px;
+}
+.card-movie {
+  overflow: hidden;
+  position: relative;
+}
+
+.add {
+  min-height: 50px ;
+  padding: 20px;
+  text-align: center;
+  margin: 5px 50px;
+  padding: 0 10px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
